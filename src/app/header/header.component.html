@@ -1,0 +1,9 @@
+<div class="sidenav">
+  <a [routerLink]="">Milk Tea Store</a>
+  <br/>
+  <div *ngFor="let store of stores">
+    <a routerLink="stores/{{store.id}}">{{store.name}}</a>
+  </div>
+</div>
+
+
